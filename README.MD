@@ -35,7 +35,6 @@ pip install -r requirements.txt
 DISCORD_WEBHOOK_URL=your_discord_webhook_url
 YOUTUBE_API_KEY=your_youtube_api_key
 GEMINI_API_KEY=your_gemini_api_key
-SETTING_CONFIG={"bot_name":"..." , ...} # (任意) JSON文字列を直接渡す場合
 
 ```
 
