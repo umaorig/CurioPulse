@@ -1,4 +1,4 @@
-﻿# CurioPulse
+# CurioPulse
 ### AI-Driven Daily Curiosity & Tech Insight Delivery
 
 このプロジェクトは、毎日の知的好奇心(Curiosity)を刺激する(Pulse)ために設計された、AI情報集約システムです。
