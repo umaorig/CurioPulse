@@ -1,0 +1,24 @@
+﻿# 仮想環境
+.venv/
+venv/
+ENV/
+
+# Pythonのキャッシュ
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 環境変数
+.env
+
+# エディタ設定（任意）
+.vscode/
+.idea/
+
+# OSの生成ファイル
+.DS_Store
+Thumbs.db
+
+# ローカルの設定ファイル
+setting.json
