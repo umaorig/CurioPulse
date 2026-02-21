@@ -169,7 +169,7 @@ def get_ai_filtered_youtube(count=10):
 # 4. メイン実行処理
 # ==========================================
 def main():
-    print(f"🚀 オペレーション・ナナ海 起動 (利用可能モデル: {DYNAMIC_MODELS})")
+    print(f"🚀 起動 (利用可能モデル: {DYNAMIC_MODELS})")
 
     # 各種情報の取得
     tech_news = fetch_summarized_news(["https://zenn.dev/topics/unity/feed", "https://note.com/hashtag/Unity/rss"], 5)
