@@ -123,7 +123,11 @@ def fetch_summarized_news(urls, count=5):
         # 不要な「記事1:」などのゴミが残っていたら消去
         clean_summary = re.sub(r'^記事\d+[:：]\s*', '', summary)
 
-        block = f"🔹 **[{entry.title}]({entry.link})**\n> {clean_summary.replace('\n', '\n> ')}"
+        # 【ここを修正！】 \n を含む処理をf-stringの外で行う
+        quoted_summary = clean_summary.replace('\n', '\n> ')
+
+        # 修正後の変数を使う
+        block = f"🔹 **[{entry.title}]({entry.link})**\n> {quoted_summary}"
         formatted_blocks.append(block)
 
     return "\n\n".join(formatted_blocks)
